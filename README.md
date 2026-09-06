@@ -2,7 +2,7 @@
 
 A 4×4 systolic-array-inspired hardware accelerator designed using Verilog RTL for matrix multiplication and multiply-accumulate (MAC) operations.
 
-## 📌 Project Overview
+## Project Overview
 
 This project implements a 4×4 array of Processing Elements (PEs), where each PE performs multiply-accumulate operations on 8-bit input data.
 
@@ -16,7 +16,7 @@ The design includes:
 - Self-checking testbench development
 - Waveform-based simulation
 
-## 🏗️ Architecture
+##  Architecture
 
 The design consists of three main blocks:
 
@@ -57,7 +57,7 @@ The design consists of three main blocks:
                      Matrix Outputs
 
 
-## 📂 Project Structure
+## Project Structure
 ```text
 4x4-int8-systolic-array/
 │
@@ -72,7 +72,7 @@ The design consists of three main blocks:
     └── top_module_tb.v
 ```
 
-## 🔧 Tools Used
+## Tools Used
 
 - Verilog HDL
 - Icarus Verilog
@@ -83,7 +83,7 @@ The design consists of three main blocks:
 - VS Code
 - GitHub
 
-## 🧪 Simulation
+## Simulation
 
 The testbench applies matrix input values and generates a VCD waveform file for signal analysis.
 
@@ -94,7 +94,7 @@ vvp systolic_sim
 gtkwave wave.vcd
 ```
 
-## 📊 Current Design
+## Current Design
 
 The current implementation contains:
 
@@ -105,7 +105,7 @@ The current implementation contains:
 - Verilog testbench
 - VCD waveform generation
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - Implement true systolic data movement between neighboring PEs
 - Add signed INT8 arithmetic
@@ -116,7 +116,7 @@ The current implementation contains:
 - Generate and document detailed area, timing, and power reports
 - Visual/screenshot of GDSII layout in README
 
-## 👩‍💻 Author
+## Author
 **Madhumitha Senthil**
 
 Electronics and Communication Engineering
